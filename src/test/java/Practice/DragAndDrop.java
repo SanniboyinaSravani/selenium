@@ -15,7 +15,7 @@ public class DragAndDrop {
 		WebElement desteleElement=driver.findElement(By.xpath("//div[@id='div2']"));
 		Actions a = new Actions(driver);
 		a.dragAndDrop(srceleElement, desteleElement).perform();
-		
+		System.out.println(" this a drag and drop");
 		
 		
 
